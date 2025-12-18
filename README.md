@@ -1,20 +1,29 @@
-# Playwright Test Automation Framework for IRS.gov
+# Playwright Test Automation for IRS.gov
 
-This repository contains a Playwright-based test automation framework designed to validate functionality and accessibility on [IRS.gov](https://www.irs.gov/).
+Automated end-to-end tests for [IRS.gov](https://www.irs.gov/) using Playwright.  
+Supports **Chromium, Firefox, and WebKit**, with accessibility and UI validation.  
+Includes **CI/CD workflow** with automated tests, dependency security scans, and static code analysis (CodeQL).
+
+---
 
 ## Features
 
-- Automated end-to-end tests for IRS.gov pages
-- Supports Chromium, Firefox, and WebKit browsers
+- End-to-end Playwright tests for IRS.gov
+- Cross-browser testing: Chromium, Firefox, WebKit
 - Accessibility and UI validation
-- Configurable base URL and test settings
-- Parallel test execution
+- CI/CD with GitHub Actions
+- Automated dependency security checks (`npm audit`)
+- Static code analysis with CodeQL
+
+---
 
 ## Prerequisites
 
 - [Node.js](https://nodejs.org/) v18+
 - npm or yarn
-- Playwright dependencies (installed via `npm install`)
+- Playwright dependencies (`npx playwright install`)
+
+---
 
 ## Setup
 
