@@ -1,5 +1,7 @@
 import { test, expect } from "./fixtures";
 
+
+//smoke test to verify the Where is My Refund navigation
 test("@smoke Where is My Refund navigation", async ({ irsPage }) => {
   await irsPage
     .locator("#block-pup-irs-informationmenu-2")

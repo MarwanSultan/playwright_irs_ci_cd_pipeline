@@ -1,5 +1,6 @@
 import { test, expect } from "./fixtures";
 
+// Smoke test to verify the IRS search function
 test("@smoke IRS search function", async ({ irsPage }) => {
   await irsPage
     .getByRole("application", { name: "Forms menu has additional" })
